@@ -3,7 +3,7 @@ tmp_dir = "tmp"
 
 [build]
   bin = "./tmp/main"
-  cmd = "go build -tags dev -o ./tmp/main ."
+  cmd = "go build -tags dev -o ./tmp/main ./cmd/web"
 
   delay = 20
   exclude_dir = ["assets", "tmp", "vendor"]
